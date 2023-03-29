@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto' , sans-serif;
+    scroll-behavior: smooth;
+}
+nav{
+    height:60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px ;
+    background-color: #cafdff;
+}
+header{
+    background-color: #eacdff;
+    height: calc(100vh - 60px);
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    font-size: 70px;
+}
+.subheader{
+    font-size: 20px;
+    width: 600px;
+}
+button{
+    background-color: #05c7cf;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 8px 16px;
+    border: 0;
+}
+a{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-left: 10px;
+}
+.laptop{
+    width: 300px;
+}
+.row{
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 150px;
+}
+#about{
+    padding: 48px 0;
+    background-color: #faffdc;
+}
+
+h2{
+    font-size: 50px;
+    text-align:center;
+    margin-bottom: 24px;
+}
+.section__description{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.about__image{
+    width: 300px;
+}
+p{
+    font-size: 15px;
+    width: 500px;
+}
+.discord__description{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#discord{
+    background-color: #cefeff;
+    padding: 48px 0; 
+}
+#contact{
+    background-color: #dce9ff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaf5ff;
+    height: 100px;
+}
+.Contact__wrapper{
+    width: 100%;
+    max-width: 610px;
+    display: flex;
+    flex-direction:column ;
+    margin: 0 auto;
+}
+input,textarea{
+    margin-bottom:20px;
+    padding: 5px;
+}
+.logo{
+    margin-bottom:5px ;
+}
+.Footer__section{
+    margin-bottom: 10px;
+}
+
+.Footer__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
